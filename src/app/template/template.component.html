@@ -1,0 +1,26 @@
+<h3>Variable Example: {{ example }}</h3>
+
+<p>The sum of 1 + 1 is not {{1 + 1 + getValue()}}.</p>
+<hr>
+<button (click)="clickHandler()">Count: {{count}}</button>
+<hr>
+<input #phone placeholder="phone number" />
+<button (click)="callPhone(phone.value)">Call</button>
+<hr>
+<button disabled>Test Button</button>
+<hr>
+<button [disabled]="disabled">Save</button>
+<button (click)="changeState($event)">Change Disable State</button>
+<hr>
+<h1>{{childItem.title}}</h1>
+<hr>
+<button [style.color]="isSpecial ? 'red': 'green'">Button</button>
+<hr>
+<h1 [ngClass]="currentClasses">Hi Special</h1>
+<hr>
+<div class='image-selector'>
+  <input #imageUrl type='text' placeholder="Image URL">
+  <button (click)='change(imageUrl.value)'>Change Image</button>
+</div>
+<hr>
+

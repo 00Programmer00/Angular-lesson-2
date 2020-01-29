@@ -1,0 +1,32 @@
+.image-selector {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.image-selector input {
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.image-selector button {
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+button {
+  height: 40px;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+  font-size: 20px;
+}
+
+.special {
+  font-size: 20px;
+  color: gold;
+}
